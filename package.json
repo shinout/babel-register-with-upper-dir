@@ -1,0 +1,13 @@
+{
+  "name": "babel-register-with-upper-dir",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd packages/pkg-a; npm test; cd ../.."
+  },
+  "workspaces": ["packages/*"],
+  "author": "Shin Suzuki <shinout310pgmail.com>",
+  "license": "ISC"
+}
