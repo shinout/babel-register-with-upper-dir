@@ -1,3 +1,5 @@
+https://github.com/babel/babel/issues/7701
+
 This repo is for bug reproduction, an issue with @babel/register applied with monorepo-structured packages using [Yarn Workspaces](https://yarnpkg.com/blog/2017/08/02/introducing-workspaces/).
 
 # How to reproduce
